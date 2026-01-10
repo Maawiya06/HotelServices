@@ -22,8 +22,8 @@ public class HotelController {
     }
 
     //get single api
-    @GetMapping("{/hotel_Id}")
-    public ResponseEntity<Hotel> getSingleHotel(String hotel_id){
+    @GetMapping("/{hotel_id}")
+    public ResponseEntity<Hotel> getSingleHotel(@PathVariable  String hotel_id){
         return ResponseEntity.status(HttpStatus.OK).body(hotelServices.get(hotel_id));
     }
 
