@@ -1,11 +1,11 @@
 package com.lcwd.Hotel.Services.Implementation;
 
 import com.lcwd.Hotel.Entities.Hotel;
-import com.lcwd.Hotel.HotelServiceApplication;
+import com.lcwd.Hotel.Exception.ResourceNotFoundException;
 import com.lcwd.Hotel.Services.HotelServices;
 import com.lcwd.Hotel.repositories.HotelRepositories;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
+
 
 import java.util.List;
 
