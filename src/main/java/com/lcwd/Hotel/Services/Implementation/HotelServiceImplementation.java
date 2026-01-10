@@ -5,10 +5,11 @@ import com.lcwd.Hotel.Exception.ResourceNotFoundException;
 import com.lcwd.Hotel.Services.HotelServices;
 import com.lcwd.Hotel.repositories.HotelRepositories;
 import org.springframework.beans.factory.annotation.Autowired;
-
-
+import org.springframework.stereotype.Service;
 import java.util.List;
 
+
+@Service
 public class HotelServiceImplementation implements HotelServices {
 
     @Autowired
