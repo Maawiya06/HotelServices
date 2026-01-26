@@ -13,7 +13,7 @@ spring:
     show-sql: true
 
   application:
-    name: discovery-client
+    name: HOTELSERVICES
 
 eureka:
   instance:
@@ -21,7 +21,7 @@ eureka:
 
   client:
     fetch-registry: true
-    registerr-with-eureka: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
 
